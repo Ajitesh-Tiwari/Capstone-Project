@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hablar</string>
+
+    <string name="title_activity_login_in">LoginInActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_authority">webarch.com.hablar.app</string>
+    <string name="sync_account_type">hablar.example.com</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="desc_add_feed">Add Feed</string>
+    <string name="desc_edittext_feed">Say Something..</string>
+
+    <string name="desc_button_logout">Logout</string>
+    <string name="desc_button_delete">Delete Account</string>
+
+    <string name="desc_button_comment">Comment</string>
+    <string name="desc_edittext_comment">Type your Comment..</string>
+
+    <string name="desc_button_chat">Send</string>
+    <string name="desc_edittext_chat">Type your Message..</string>
+
+
+</resources>

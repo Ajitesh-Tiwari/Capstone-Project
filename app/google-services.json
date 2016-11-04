@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "819347761361",
+    "firebase_url": "https://hablar-86f48.firebaseio.com",
+    "project_id": "hablar-86f48",
+    "storage_bucket": "hablar-86f48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819347761361:android:9bd3ab242a4b6b33",
+        "android_client_info": {
+          "package_name": "webarch.com.hablar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819347761361-b4oolr03e18pbbb7059qev4dtcmdhsqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webarch.com.hablar",
+            "certificate_hash": "6A81BE5D323DC90B4CCA1C499237B838C68003CF"
+          }
+        },
+        {
+          "client_id": "819347761361-oh824ul60tjhs1n1sgmmqcsnvd3m1uaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiL1LMM5vBRUWxZovIkFJmvzcqGOyNvAg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819347761361-oh824ul60tjhs1n1sgmmqcsnvd3m1uaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

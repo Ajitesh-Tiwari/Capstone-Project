@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="webarch.com.hablar.LoginController.Fragments.SignInFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:background="@android:color/transparent"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:hint="Username"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etRegId"
+                android:background="@android:color/transparent"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:hint="Registration ID"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:background="@android:color/transparent"
+                android:paddingLeft="10dp"
+                android:inputType="textEmailAddress"
+                android:hint="Official Email"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:background="@android:color/transparent"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:text="REGISTER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
