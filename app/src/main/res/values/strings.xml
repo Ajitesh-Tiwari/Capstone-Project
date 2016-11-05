@@ -6,6 +6,8 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="about_us_fragment">Made By Ajitesh Tiwari</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="content_authority">webarch.com.hablar.app</string>
     <string name="sync_account_type">hablar.example.com</string>

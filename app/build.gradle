@@ -11,20 +11,22 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
     signingConfigs {
         release {
-            storeFile file("HablarKeystore.keystore")
+            storeFile file("HablarKeystore.jks")
             storePassword "Pa\$\$w0rd"
             keyAlias "Hablar"
             keyPassword "Pa\$\$w0rd"
         }
     }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
 }
 
 dependencies {
