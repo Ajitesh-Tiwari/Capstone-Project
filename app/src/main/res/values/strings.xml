@@ -26,5 +26,27 @@
     <string name="desc_button_chat">Send</string>
     <string name="desc_edittext_chat">Type your Message..</string>
 
+    <string name="edit_post">Edit Post</string>
+    <string name="delete_post">Delete Post</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="username">Username</string>
+    <string name="registration_id">Registration ID</string>
+    <string name="official_email">Official Email</string>
+
+    <string name="register">REGISTER</string>
+    <string name="click_to_refresh">Click to Refresh</string>
+    <string name="no_feed_found">No Feed Found</string>
+    <string name="dont_have_account">Don\'t have an Account ? SIGN UP</string>
+    <string name="already_have_account">Already have an Account ? SIGN IN</string>
+
+    <string name="remember_password">Remember Password ?</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="login_caps">LOGIN</string>
+
 
 </resources>

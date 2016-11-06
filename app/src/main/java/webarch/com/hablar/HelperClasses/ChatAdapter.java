@@ -67,7 +67,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
 
             LinearLayout.LayoutParams layoutParams =
                     (LinearLayout.LayoutParams) holder.contentWithBG.getLayoutParams();
-            layoutParams.gravity = Gravity.RIGHT;
+            layoutParams.gravity = Gravity.END;
             holder.contentWithBG.setLayoutParams(layoutParams);
 
             RelativeLayout.LayoutParams lp =
@@ -76,16 +76,16 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
             lp.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
             holder.content.setLayoutParams(lp);
             layoutParams = (LinearLayout.LayoutParams) holder.message.getLayoutParams();
-            layoutParams.gravity = Gravity.RIGHT;
+            layoutParams.gravity = Gravity.END;
             holder.message.setLayoutParams(layoutParams);
 
-            layoutParams.gravity = Gravity.RIGHT;
+            layoutParams.gravity = Gravity.END;
         } else {
             holder.contentWithBG.setBackgroundResource(R.drawable.out_message_bg);
 
             LinearLayout.LayoutParams layoutParams =
                     (LinearLayout.LayoutParams) holder.contentWithBG.getLayoutParams();
-            layoutParams.gravity = Gravity.LEFT;
+            layoutParams.gravity = Gravity.START;
             holder.contentWithBG.setLayoutParams(layoutParams);
 
             RelativeLayout.LayoutParams lp =
@@ -94,10 +94,10 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
             lp.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
             holder.content.setLayoutParams(lp);
             layoutParams = (LinearLayout.LayoutParams) holder.message.getLayoutParams();
-            layoutParams.gravity = Gravity.LEFT;
+            layoutParams.gravity = Gravity.START;
             holder.message.setLayoutParams(layoutParams);
 
-            layoutParams.gravity = Gravity.LEFT;
+            layoutParams.gravity = Gravity.START;
         }
     }
 }

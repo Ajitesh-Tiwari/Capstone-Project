@@ -79,11 +79,10 @@
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 android:padding="10dp"
-                android:contentDescription="@string/desc_edittext_chat"
                 />
             <Button
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_gravity="right"
+                android:layout_gravity="end"
                 android:id="@+id/btnSend"
                 android:text="@string/desc_button_chat"
                 android:layout_width="wrap_content"

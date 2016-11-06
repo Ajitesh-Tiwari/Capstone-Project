@@ -30,7 +30,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     }
     public void setSignInFragment(){
         pos=1;
-        tvStatus.setText("Don't have an Account ? SIGN UP");
+        tvStatus.setText(getString(R.string.dont_have_account));
         fm=getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         ft.replace(R.id.containerFragment, new SignInFragment());
@@ -38,7 +38,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     }
     public void setSignUpFragment(){
         pos=-1;
-        tvStatus.setText("Already have an Account ? SIGN IN");
+        tvStatus.setText(getString(R.string.already_have_account));
         fm=getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
         ft.replace(R.id.containerFragment, new SignUpFragment());

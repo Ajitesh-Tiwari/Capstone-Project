@@ -6,13 +6,11 @@ package webarch.com.hablar.SyncAdapter;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
-import android.appwidget.AppWidgetManager;
 import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SyncResult;
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -26,13 +24,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import webarch.com.hablar.ContentProvider.DataContract;
 import webarch.com.hablar.HelperClasses.Feed;
 import webarch.com.hablar.R;
-import webarch.com.hablar.WidgetHelpers.HablarWidget;
 
 /**
  * Created by ajitesh on 20/2/16.

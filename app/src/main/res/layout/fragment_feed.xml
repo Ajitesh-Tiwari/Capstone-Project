@@ -24,8 +24,8 @@
                 android:layout_height="wrap_content">
                 <EditText
                     android:layout_gravity="center"
-                    android:paddingRight="42dp"
-                    android:paddingLeft="4dp"
+                    android:paddingEnd="42dp"
+                    android:paddingStart="4dp"
                     android:paddingBottom="4dp"
                     android:paddingTop="4dp"
                     android:id="@+id/etComment"
@@ -33,13 +33,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/desc_edittext_feed"
-                    android:contentDescription="@string/desc_edittext_feed"
                     />
                 <ImageView
                     android:contentDescription="@string/desc_add_feed"
                     android:id="@+id/ivSend"
                     android:layout_margin="8dp"
-                    android:layout_gravity="end|right|center_horizontal"
+                    android:layout_gravity="end|center_horizontal"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/send"/>

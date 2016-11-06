@@ -27,10 +27,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 import webarch.com.hablar.HelperClasses.User;
 import webarch.com.hablar.LoginController.LoginActivity;
 import webarch.com.hablar.R;
@@ -107,7 +103,7 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Toast.makeText(context,databaseError.getMessage().toString(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,databaseError.getMessage(),Toast.LENGTH_SHORT).show();
             }
         });
     }

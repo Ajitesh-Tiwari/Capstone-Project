@@ -17,9 +17,9 @@
             <EditText
                 android:id="@+id/etUsername"
                 android:background="@android:color/transparent"
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:inputType="text"
-                android:hint="Username"
+                android:hint="@string/username"
                 android:layout_margin="16dp"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
@@ -28,9 +28,9 @@
             <EditText
                 android:id="@+id/etRegId"
                 android:background="@android:color/transparent"
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:inputType="text"
-                android:hint="Registration ID"
+                android:hint="@string/registration_id"
                 android:layout_margin="16dp"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
@@ -39,9 +39,9 @@
             <EditText
                 android:id="@+id/etEmail"
                 android:background="@android:color/transparent"
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:inputType="textEmailAddress"
-                android:hint="Official Email"
+                android:hint="@string/official_email"
                 android:layout_margin="16dp"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
@@ -50,9 +50,9 @@
             <EditText
                 android:id="@+id/etPassword"
                 android:background="@android:color/transparent"
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:inputType="textPassword"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:layout_margin="16dp"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
@@ -64,9 +64,10 @@
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_margin="16dp"
                 android:padding="16dp"
-                android:text="REGISTER"
+                android:text="@string/register"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/register"/>
         </LinearLayout>
     </ScrollView>
 

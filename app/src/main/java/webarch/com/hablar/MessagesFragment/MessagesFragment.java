@@ -20,7 +20,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +30,6 @@ import webarch.com.hablar.ContactsFragment.ContactDetails;
 import webarch.com.hablar.FeedFragment.FeedAdapter;
 import webarch.com.hablar.HelperClasses.Feed;
 import webarch.com.hablar.HelperClasses.RecyclerItemClickListener;
-import webarch.com.hablar.HelperClasses.User;
 import webarch.com.hablar.MainActivity;
 import webarch.com.hablar.R;
 

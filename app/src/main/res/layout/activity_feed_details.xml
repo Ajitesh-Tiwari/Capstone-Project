@@ -81,21 +81,23 @@
             <Button
                 android:id="@+id/edit"
                 style="@style/Widget.AppCompat.Button.Colored"
-                android:text="Edit Post"
+                android:text="@string/edit_post"
                 android:background="@color/colorPrimaryDark"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:contentDescription="@string/edit_post"/>
             <Button
                 android:id="@+id/delete"
                 style="@style/Widget.AppCompat.Button.Colored"
-                android:text="Delete Post"
+                android:text="@string/delete_post"
                 android:background="@color/colorAccent"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"/>
+                android:layout_margin="8dp"
+                android:contentDescription="@string/delete_post"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
     <android.support.v7.widget.CardView
@@ -117,11 +119,10 @@
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 android:padding="10dp"
-                android:contentDescription="@string/desc_edittext_comment"
                 />
             <Button
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_gravity="right"
+                android:layout_gravity="end"
                 android:id="@+id/btnSend"
                 android:text="@string/desc_button_comment"
                 android:layout_width="wrap_content"

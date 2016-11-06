@@ -1,10 +1,7 @@
 package webarch.com.hablar;
 
-import android.accounts.Account;
-import android.content.ContentProvider;
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.SyncStatusObserver;
 import android.graphics.Color;
 import android.support.design.widget.AppBarLayout;
 import android.support.v4.app.Fragment;

@@ -91,15 +91,15 @@ public class SignInFragment extends Fragment implements View.OnClickListener {
     }
     private void setForgetPasswordUI(){
         pos=-1;
-        forgotPass.setText("Remember Password ?");
+        forgotPass.setText(getString(R.string.remember_password));
         password.setVisibility(View.GONE);
-        btnLogin.setText("RESET PASSWORD");
+        btnLogin.setText(getString(R.string.reset_password));
     }
     private void setRememberPasswordUI(){
         pos=1;
-        forgotPass.setText("Forgot Password ?");
+        forgotPass.setText(getString(R.string.forgot_password));
         password.setVisibility(View.VISIBLE);
-        btnLogin.setText("LOGIN");
+        btnLogin.setText(getString(R.string.login_caps));
     }
     private void toggle(){
         if(pos==-1)

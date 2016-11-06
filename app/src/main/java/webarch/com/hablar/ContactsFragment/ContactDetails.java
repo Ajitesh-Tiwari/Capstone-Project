@@ -1,13 +1,11 @@
 package webarch.com.hablar.ContactsFragment;
 
-import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,13 +21,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.messaging.FirebaseMessaging;
-import com.google.firebase.messaging.RemoteMessage;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import webarch.com.hablar.FeedFragment.FeedDetails;
 import webarch.com.hablar.HelperClasses.Chat;
 import webarch.com.hablar.HelperClasses.ChatAdapter;
 import webarch.com.hablar.HelperClasses.Feed;
